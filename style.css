@@ -987,3 +987,67 @@
     cursor: pointer;
     font-family: "Alata-Regular", Helvetica;
 }
+
+/* Add this code to the end of your style.css file */
+
+.contact-form-container {
+    padding: 40px 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 40px auto; /* Centers the form and adds space */
+}
+
+.contact-form-container h2 {
+    color: #fcfcfd;
+    font-size: 50px;
+    font-family: 'Lufga', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 18px 25px;
+    border-radius: 12px;
+    border: 1px solid #475467;
+    background-color: #272727;
+    color: #fcfcfd;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder {
+    color: #a0a0a0;
+}
+
+#contactForm button {
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #95D1F9;
+    color: white;
+    font-size: 21px;
+    font-family: 'Lufga', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: #7ac5f7;
+}
+
+#form-status {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Lufga', sans-serif;
+    text-align: center;
+    height: 25px; /* Prevents layout shift */
+}
