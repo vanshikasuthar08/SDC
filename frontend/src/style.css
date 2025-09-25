@@ -951,3 +951,39 @@
     letter-spacing: -0.30px;
     line-height: normal;
 }
+
+/* Add this to the end of style.css */
+#contact-form-section {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 50px 71px;
+    text-align: center;
+}
+#contact-form-section h2 {
+    font-size: 50px;
+    color: #151515;
+    margin-bottom: 30px;
+    font-family: "Arimo-Bold", Helvetica;
+}
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#contactForm input, #contactForm textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+#contactForm button {
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #95D1F9;
+    color: white;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    font-family: "Alata-Regular", Helvetica;
+}
